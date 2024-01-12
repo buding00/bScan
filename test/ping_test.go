@@ -11,7 +11,7 @@ import (
 
 func TestPingUse(t *testing.T) {
 	use, i := PingUse("82.157.208.214", t)
-	fmt.Println(string(i))
+	fmt.Println((i))
 	fmt.Println(use)
 }
 
